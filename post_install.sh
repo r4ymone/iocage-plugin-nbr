@@ -2,7 +2,7 @@
 
 PRODUCT='NAKIVO Backup & Replication'
 URL="https://download1488.mediafire.com/dgwl34ovjigg/ufqxasglnhfzhqk/FREE10.3.0.54616.sh"
-SHA256="f4ee6b9ab684de99fa9168b9cacf39bb879f0607985f17c5727c8e9ec01601fc"
+SHA256="47d841024c4a54d0bdb1ad494365c2cef776eaf446682a9f4444256e1997e698"
 
 
 PRODUCT_ROOT="/usr/local/nakivo"
