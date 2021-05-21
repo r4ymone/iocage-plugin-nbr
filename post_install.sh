@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PRODUCT='NAKIVO Backup & Replication'
-URL="https://download1488.mediafire.com/dgwl34ovjigg/ufqxasglnhfzhqk/FREE10.3.0.54616.sh"
+URL="http://192.168.1.115/FREE10.3.0.54616.sh"
 SHA256="47d841024c4a54d0bdb1ad494365c2cef776eaf446682a9f4444256e1997e698"
 
 
