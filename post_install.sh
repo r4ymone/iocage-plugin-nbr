@@ -21,7 +21,7 @@ if [ "$SHA256" != "$CHECKSUM" ]; then
     exit 2
 fi
 
-sh ./$INSTALL -f -y -i "$PRODUCT_ROOT" --eula-accept --extract 2>&1
+sh ./$INSTALL -t -y -i "$PRODUCT_ROOT" --eula-accept --extract 2>&1
 if [ $? -ne 0 ]; then
     echo "ERROR: $PRODUCT install failed"
     rm $INSTALL >/dev/null 2>&1
@@ -41,4 +41,4 @@ if [ "x$PROFILE" != "x" ]; then
     mv "${PROFILE}_" "$PROFILE" >/dev/null 2>&1
 fi
 
-service nkv_dirsvc start >/dev/null 2>&1
+service nkv_bhsvc start >/dev/null 2>&1
